@@ -1,0 +1,4731 @@
+﻿
+[Update-MarkdownHelpModule] 06/09/2022 12:33:56 Determined module name for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md' as 'ACI-PoSH'.
+[Update-MarkdownHelpModule] 06/09/2022 12:33:56 [Update-MarkdownHelpModule]6/9/2022 12:33:56 PM
+[Update-MarkdownHelpModule] 06/09/2022 12:33:56 Updating documents for module 'ACI-PoSH' in C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md
+[Update-MarkdownHelp] 06/09/2022 12:33:56 Command '' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\ACI-PoSH.md'.
+---- UPDATING Cmdlet : Get-ACIAAALocalUsers ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAALocalUsers ----
+
+
+---- UPDATING Cmdlet : Get-ACIAAASecDomain ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAASecDomain ----
+
+
+---- UPDATING Cmdlet : Get-ACIAAASecRole ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAASecRole ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfile ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfile ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+---- ERROR UPDATING Cmdlet : Get-ACIAppProfileAll----
+
+    Exception Creating Merged Object: 
+Object reference not set to an instance of an object.
+
+---- ERROR UPDATING Cmdlet : Get-ACIAppProfileAll----
+
+    Exception Links: 
+Object reference not set to an instance of an object.
+
+---- ERROR UPDATING Cmdlet : Get-ACIAppProfileAll----
+
+    Exception Examples: 
+Object reference not set to an instance of an object.
+
+---- ERROR UPDATING Cmdlet : Get-ACIAppProfileAll----
+
+    Exception Inputs and Outputs: 
+Object reference not set to an instance of an object.
+
+---- ERROR UPDATING Cmdlet : Get-ACIAppProfileAll----
+
+    Exception adding parameter syntax to merge: 
+Object reference not set to an instance of an object.
+
+---- ERROR UPDATING Cmdlet : Get-ACIAppProfileAll----
+
+    Exception parameter merge: 
+Object reference not set to an instance of an object.
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIBDAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIBDAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIEPG ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEPG ----
+
+
+---- UPDATING Cmdlet : Get-ACIEPGALL ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEPGALL ----
+
+
+---- UPDATING Cmdlet : Get-ACIEpgBD ----
+
+	Parameter Set Added: ALL
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEpgBD ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricAEEP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricAEEP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicy ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicy ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicyAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicyAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPhysicalDomain ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPhysicalDomain ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortCDP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortCDP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLACP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLACP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLinkLevel ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLinkLevel ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLLDP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLLDP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricSwitchLeaf ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricSwitchLeaf ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricVLANPool ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricVLANPool ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricVLANPoolAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricVLANPoolAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIL3out ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIL3out ----
+
+
+---- UPDATING Cmdlet : Get-ACIL3outAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIL3outAll ----
+
+
+---- UPDATING Cmdlet : Get-ACISecurityContract ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACISecurityContract ----
+
+
+---- UPDATING Cmdlet : Get-ACISecurityContractAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACISecurityContractAll ----
+
+
+---- UPDATING Cmdlet : Get-ACITenant ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACITenant ----
+
+
+---- UPDATING Cmdlet : Get-ACIVRF ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIVRF ----
+
+
+---- UPDATING Cmdlet : New-ACIAAALocalUser ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIAAALocalUser ----
+
+
+---- UPDATING Cmdlet : New-ACIApiCall ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIApiCall ----
+
+
+---- UPDATING Cmdlet : New-ACIAppProfile ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIAppProfile ----
+
+
+---- UPDATING Cmdlet : New-ACIBD ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIBD ----
+
+
+---- UPDATING Cmdlet : New-ACIEPG ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIEPG ----
+
+
+---- UPDATING Cmdlet : New-ACIInterface ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIInterface ----
+
+
+---- UPDATING Cmdlet : New-ACIInterfaceVPC ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIInterfaceVPC ----
+
+
+---- UPDATING Cmdlet : New-ACIL3out ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIL3out ----
+
+
+---- UPDATING Cmdlet : New-ACILogin ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACILogin ----
+
+
+---- UPDATING Cmdlet : New-ACITenant ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACITenant ----
+
+
+---- UPDATING Cmdlet : New-ACIVRF ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIVRF ----
+
+
+---- UPDATING Cmdlet : Remove-ACIBD ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Remove-ACIBD ----
+
+
+---- UPDATING Cmdlet : Update-ACIEPG ----
+
+	No updates done
+
+---- COMPLETED UPDATING Cmdlet : Update-ACIEPG ----
+
+
+---- UPDATING Cmdlet : Update-ACIEPGPortBinding ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Update-ACIEPGPortBinding ----
+
+
+[Update-MarkdownHelpModule] 06/09/2022 12:36:41 Determined module name for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md' as 'ACI-PoSH'.
+[Update-MarkdownHelpModule] 06/09/2022 12:36:41 [Update-MarkdownHelpModule]6/9/2022 12:36:41 PM
+[Update-MarkdownHelpModule] 06/09/2022 12:36:41 Updating documents for module 'ACI-PoSH' in C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md
+[Update-MarkdownHelp] 06/09/2022 12:36:41 Command '' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\ACI-PoSH.md'.
+---- UPDATING Cmdlet : Get-ACIAAALocalUsers ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAALocalUsers ----
+
+
+---- UPDATING Cmdlet : Get-ACIAAASecDomain ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAASecDomain ----
+
+
+---- UPDATING Cmdlet : Get-ACIAAASecRole ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAASecRole ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfile ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfile ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIBDAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIBDAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIEPG ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEPG ----
+
+
+---- UPDATING Cmdlet : Get-ACIEPGALL ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEPGALL ----
+
+
+---- UPDATING Cmdlet : Get-ACIEpgBD ----
+
+	Parameter Set Added: ALL
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEpgBD ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricAEEP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricAEEP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicy ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicy ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicyAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicyAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPhysicalDomain ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPhysicalDomain ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortCDP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortCDP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLACP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLACP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLinkLevel ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLinkLevel ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLLDP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLLDP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricSwitchLeaf ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricSwitchLeaf ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricVLANPool ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricVLANPool ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricVLANPoolAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricVLANPoolAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIL3out ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIL3out ----
+
+
+---- UPDATING Cmdlet : Get-ACIL3outAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIL3outAll ----
+
+
+---- UPDATING Cmdlet : Get-ACISecurityContract ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACISecurityContract ----
+
+
+---- UPDATING Cmdlet : Get-ACISecurityContractAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACISecurityContractAll ----
+
+
+---- UPDATING Cmdlet : Get-ACITenant ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACITenant ----
+
+
+---- UPDATING Cmdlet : Get-ACIVRF ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIVRF ----
+
+
+---- UPDATING Cmdlet : New-ACIAAALocalUser ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIAAALocalUser ----
+
+
+---- UPDATING Cmdlet : New-ACIApiCall ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIApiCall ----
+
+
+---- UPDATING Cmdlet : New-ACIAppProfile ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIAppProfile ----
+
+
+---- UPDATING Cmdlet : New-ACIBD ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIBD ----
+
+
+---- UPDATING Cmdlet : New-ACIEPG ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIEPG ----
+
+
+---- UPDATING Cmdlet : New-ACIInterface ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIInterface ----
+
+
+---- UPDATING Cmdlet : New-ACIInterfaceVPC ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIInterfaceVPC ----
+
+
+---- UPDATING Cmdlet : New-ACIL3out ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIL3out ----
+
+
+---- UPDATING Cmdlet : New-ACILogin ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACILogin ----
+
+
+---- UPDATING Cmdlet : New-ACITenant ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACITenant ----
+
+
+---- UPDATING Cmdlet : New-ACIVRF ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIVRF ----
+
+
+---- UPDATING Cmdlet : Remove-ACIBD ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Remove-ACIBD ----
+
+
+---- UPDATING Cmdlet : Update-ACIEPG ----
+
+	No updates done
+
+---- COMPLETED UPDATING Cmdlet : Update-ACIEPG ----
+
+
+---- UPDATING Cmdlet : Update-ACIEPGPortBinding ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Update-ACIEPGPortBinding ----
+
+
+[Update-MarkdownHelpModule] 06/09/2022 12:39:00 Determined module name for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md' as 'ACI-PoSH'.
+[Update-MarkdownHelpModule] 06/09/2022 12:39:00 [Update-MarkdownHelpModule]6/9/2022 12:39:00 PM
+[Update-MarkdownHelpModule] 06/09/2022 12:39:00 Updating documents for module 'ACI-PoSH' in C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md
+[Update-MarkdownHelp] 06/09/2022 12:39:01 Command '' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\ACI-PoSH.md'.
+---- UPDATING Cmdlet : Get-ACIAAALocalUsers ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAALocalUsers ----
+
+
+---- UPDATING Cmdlet : Get-ACIAAASecDomain ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAASecDomain ----
+
+
+---- UPDATING Cmdlet : Get-ACIAAASecRole ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAASecRole ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfile ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfile ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIBDAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIBDAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIEPG ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEPG ----
+
+
+---- UPDATING Cmdlet : Get-ACIEPGALL ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEPGALL ----
+
+
+---- UPDATING Cmdlet : Get-ACIEpgBD ----
+
+	Parameter Set Added: ALL
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEpgBD ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricAEEP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricAEEP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicy ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicy ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicyAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicyAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPhysicalDomain ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPhysicalDomain ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortCDP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortCDP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLACP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLACP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLinkLevel ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLinkLevel ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLLDP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLLDP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricSwitchLeaf ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricSwitchLeaf ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricVLANPool ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricVLANPool ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricVLANPoolAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricVLANPoolAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIL3out ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIL3out ----
+
+
+---- UPDATING Cmdlet : Get-ACIL3outAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIL3outAll ----
+
+
+---- UPDATING Cmdlet : Get-ACISecurityContract ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACISecurityContract ----
+
+
+---- UPDATING Cmdlet : Get-ACISecurityContractAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACISecurityContractAll ----
+
+
+---- UPDATING Cmdlet : Get-ACITenant ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACITenant ----
+
+
+---- UPDATING Cmdlet : Get-ACIVRF ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIVRF ----
+
+
+[Update-MarkdownHelpModule] 06/09/2022 12:39:31 Determined module name for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md' as 'ACI-PoSH'.
+[Update-MarkdownHelpModule] 06/09/2022 12:39:31 [Update-MarkdownHelpModule]6/9/2022 12:39:31 PM
+[Update-MarkdownHelpModule] 06/09/2022 12:39:31 Updating documents for module 'ACI-PoSH' in C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md
+[Update-MarkdownHelpModule] 06/09/2022 12:40:22 Determined module name for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md' as 'ACI-PoSH'.
+[Update-MarkdownHelpModule] 06/09/2022 12:40:22 [Update-MarkdownHelpModule]6/9/2022 12:40:22 PM
+[Update-MarkdownHelpModule] 06/09/2022 12:40:22 Updating documents for module 'ACI-PoSH' in C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md
+[Update-MarkdownHelpModule] 06/09/2022 14:13:20 Determined module name for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md' as 'ACI-PoSH'.
+[Update-MarkdownHelpModule] 06/09/2022 14:13:20 [Update-MarkdownHelpModule]6/9/2022 2:13:20 PM
+[Update-MarkdownHelpModule] 06/09/2022 14:13:20 Updating documents for module 'ACI-PoSH' in C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md
+[Update-MarkdownHelpModule] 06/09/2022 14:13:58 Determined module name for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md' as 'ACI-PoSH'.
+[Update-MarkdownHelpModule] 06/09/2022 14:13:58 [Update-MarkdownHelpModule]6/9/2022 2:13:58 PM
+[Update-MarkdownHelpModule] 06/09/2022 14:13:58 Updating documents for module 'ACI-PoSH' in C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md
+[Update-MarkdownHelpModule] 06/09/2022 14:14:55 Determined module name for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md' as 'ACI-PoSH'.
+[Update-MarkdownHelpModule] 06/09/2022 14:14:55 [Update-MarkdownHelpModule]6/9/2022 2:14:55 PM
+[Update-MarkdownHelpModule] 06/09/2022 14:14:55 Updating documents for module 'ACI-PoSH' in C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md
+[Update-MarkdownHelpModule] 06/09/2022 14:17:42 Determined module name for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md' as 'ACI-PoSH'.
+[Update-MarkdownHelpModule] 06/09/2022 14:17:42 [Update-MarkdownHelpModule]6/9/2022 2:17:42 PM
+[Update-MarkdownHelpModule] 06/09/2022 14:17:42 Updating documents for module 'ACI-PoSH' in C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md
+[Update-MarkdownHelpModule] 06/09/2022 14:19:44 Determined module name for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md' as 'ACI-PoSH'.
+[Update-MarkdownHelpModule] 06/09/2022 14:19:44 [Update-MarkdownHelpModule]6/9/2022 2:19:44 PM
+[Update-MarkdownHelpModule] 06/09/2022 14:19:44 Updating documents for module 'ACI-PoSH' in C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md
+[Update-MarkdownHelpModule] 06/09/2022 14:20:03 Determined module name for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md' as 'ACI-PoSH'.
+[Update-MarkdownHelpModule] 06/09/2022 14:20:03 [Update-MarkdownHelpModule]6/9/2022 2:20:03 PM
+[Update-MarkdownHelpModule] 06/09/2022 14:20:03 Updating documents for module 'ACI-PoSH' in C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md
+[Update-MarkdownHelpModule] 06/09/2022 14:23:51 Determined module name for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md' as 'ACI-PoSH'.
+[Update-MarkdownHelpModule] 06/09/2022 14:23:51 [Update-MarkdownHelpModule]6/9/2022 2:23:51 PM
+[Update-MarkdownHelpModule] 06/09/2022 14:23:51 Updating documents for module 'ACI-PoSH' in C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md
+[Update-MarkdownHelpModule] 06/09/2022 14:24:37 Determined module name for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md' as 'ACIPoSH'.
+[Update-MarkdownHelpModule] 06/09/2022 14:24:37 [Update-MarkdownHelpModule]6/9/2022 2:24:37 PM
+[Update-MarkdownHelpModule] 06/09/2022 14:24:37 Updating documents for module 'ACIPoSH' in C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md
+[Update-MarkdownHelpModule] 06/09/2022 14:27:23 Determined module name for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md' as 'ACIPoSH'.
+[Update-MarkdownHelpModule] 06/09/2022 14:27:23 [Update-MarkdownHelpModule]6/9/2022 2:27:23 PM
+[Update-MarkdownHelpModule] 06/09/2022 14:27:23 Updating documents for module 'ACIPoSH' in C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md
+[Update-MarkdownHelp] 06/09/2022 14:27:26 Command '' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\ACI-PoSH.md'.
+---- UPDATING Cmdlet : Get-ACIAAALocalUsers ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAALocalUsers ----
+
+
+---- UPDATING Cmdlet : Get-ACIAAASecDomain ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAASecDomain ----
+
+
+---- UPDATING Cmdlet : Get-ACIAAASecRole ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAASecRole ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfile ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfile ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIBDAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIBDAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIEPG ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEPG ----
+
+
+---- UPDATING Cmdlet : Get-ACIEPGALL ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEPGALL ----
+
+
+---- UPDATING Cmdlet : Get-ACIEpgBD ----
+
+	Parameter Set Added: ALL
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEpgBD ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricAEEP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricAEEP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicy ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicy ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicyAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicyAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPhysicalDomain ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPhysicalDomain ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortCDP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortCDP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLACP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLACP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLinkLevel ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLinkLevel ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLLDP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLLDP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricSwitchLeaf ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricSwitchLeaf ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricVLANPool ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricVLANPool ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricVLANPoolAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricVLANPoolAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIL3out ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIL3out ----
+
+
+---- UPDATING Cmdlet : Get-ACIL3outAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIL3outAll ----
+
+
+---- UPDATING Cmdlet : Get-ACISecurityContract ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACISecurityContract ----
+
+
+---- UPDATING Cmdlet : Get-ACISecurityContractAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACISecurityContractAll ----
+
+
+---- UPDATING Cmdlet : Get-ACITenant ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACITenant ----
+
+
+---- UPDATING Cmdlet : Get-ACIVRF ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIVRF ----
+
+
+---- UPDATING Cmdlet : New-ACIAAALocalUser ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIAAALocalUser ----
+
+
+---- UPDATING Cmdlet : New-ACIApiCall ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIApiCall ----
+
+
+---- UPDATING Cmdlet : New-ACIAppProfile ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIAppProfile ----
+
+
+---- UPDATING Cmdlet : New-ACIBD ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIBD ----
+
+
+---- UPDATING Cmdlet : New-ACIEPG ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIEPG ----
+
+
+---- UPDATING Cmdlet : New-ACIInterface ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIInterface ----
+
+
+---- UPDATING Cmdlet : New-ACIInterfaceVPC ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIInterfaceVPC ----
+
+
+---- UPDATING Cmdlet : New-ACIL3out ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIL3out ----
+
+
+---- UPDATING Cmdlet : New-ACILogin ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACILogin ----
+
+
+---- UPDATING Cmdlet : New-ACITenant ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACITenant ----
+
+
+---- UPDATING Cmdlet : New-ACIVRF ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIVRF ----
+
+
+---- UPDATING Cmdlet : Remove-ACIBD ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Remove-ACIBD ----
+
+
+---- UPDATING Cmdlet : Update-ACIEPG ----
+
+	No updates done
+
+---- COMPLETED UPDATING Cmdlet : Update-ACIEPG ----
+
+
+---- UPDATING Cmdlet : Update-ACIEPGPortBinding ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Update-ACIEPGPortBinding ----
+
+
+[Update-MarkdownHelpModule] 06/10/2022 16:48:43 Determined module name for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md' as 'ACI-PoSH'.
+[Update-MarkdownHelpModule] 06/10/2022 16:48:43 [Update-MarkdownHelpModule]6/10/2022 4:48:43 PM
+[Update-MarkdownHelpModule] 06/10/2022 16:48:43 Updating documents for module 'ACI-PoSH' in C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md
+[Update-MarkdownHelpModule] 06/10/2022 16:48:56 Determined module name for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md' as 'ACI-PoSH'.
+[Update-MarkdownHelpModule] 06/10/2022 16:48:56 [Update-MarkdownHelpModule]6/10/2022 4:48:56 PM
+[Update-MarkdownHelpModule] 06/10/2022 16:48:56 Updating documents for module 'ACI-PoSH' in C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md
+[Update-MarkdownHelpModule] 06/10/2022 16:49:44 Determined module name for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md' as 'ACI-PoSH'.
+[Update-MarkdownHelpModule] 06/10/2022 16:49:44 [Update-MarkdownHelpModule]6/10/2022 4:49:44 PM
+[Update-MarkdownHelpModule] 06/10/2022 16:49:44 Updating documents for module 'ACI-PoSH' in C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md
+[Update-MarkdownHelp] 06/13/2022 18:44:04 Command '' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\ACI-PoSH.md'.
+---- UPDATING Cmdlet : Get-ACIAAALocalUsers ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAALocalUsers ----
+
+
+---- UPDATING Cmdlet : Get-ACIAAASecDomain ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAASecDomain ----
+
+
+---- UPDATING Cmdlet : Get-ACIAAASecRole ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAASecRole ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfile ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfile ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIBDAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIBDAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIEPG ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+	Parameter Updated: AP
+		Required updated from False to True
+
+	Parameter Updated: AP
+		Accepts Pipeline Input updated from True (ByPropertyName) to False
+
+	Parameter Updated: EPG
+		Required updated from False to True
+
+	Parameter Updated: EPG
+		Accepts Pipeline Input updated from True (ByPropertyName) to False
+
+	Parameter Updated: Tenant
+		Required updated from False to True
+
+	Parameter Updated: Tenant
+		Accepts Pipeline Input updated from True (ByPropertyName) to False
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEPG ----
+
+
+---- UPDATING Cmdlet : Get-ACIEPGALL ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEPGALL ----
+
+
+---- UPDATING Cmdlet : Get-ACIEpgBD ----
+
+	Parameter Set Added: ALL
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEpgBD ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricAEEP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricAEEP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicy ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicy ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicyAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicyAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPhysicalDomain ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPhysicalDomain ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortCDP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortCDP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLACP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLACP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLinkLevel ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLinkLevel ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLLDP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLLDP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricSwitchLeaf ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricSwitchLeaf ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricVLANPool ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricVLANPool ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricVLANPoolAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricVLANPoolAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIL3out ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIL3out ----
+
+
+---- UPDATING Cmdlet : Get-ACIL3outAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIL3outAll ----
+
+
+---- UPDATING Cmdlet : Get-ACISecurityContract ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACISecurityContract ----
+
+
+---- UPDATING Cmdlet : Get-ACISecurityContractAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACISecurityContractAll ----
+
+
+---- UPDATING Cmdlet : Get-ACITenant ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACITenant ----
+
+
+---- UPDATING Cmdlet : Get-ACIVRF ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIVRF ----
+
+
+---- UPDATING Cmdlet : New-ACIAAALocalUser ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIAAALocalUser ----
+
+
+---- UPDATING Cmdlet : New-ACIApiCall ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIApiCall ----
+
+
+---- UPDATING Cmdlet : New-ACIAppProfile ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIAppProfile ----
+
+
+---- UPDATING Cmdlet : New-ACIBD ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Deleted: BD
+
+	Parameter Deleted: L3out
+
+	Parameter Deleted: SVI
+
+	Parameter Deleted: SVIscope
+
+	Parameter Deleted: Tenant
+
+	Parameter Deleted: VRF
+
+---- COMPLETED UPDATING Cmdlet : New-ACIBD ----
+
+
+---- UPDATING Cmdlet : New-ACIEPG ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIEPG ----
+
+
+---- UPDATING Cmdlet : New-ACIInterface ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIInterface ----
+
+
+---- UPDATING Cmdlet : New-ACIInterfaceVPC ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIInterfaceVPC ----
+
+
+---- UPDATING Cmdlet : New-ACIL3out ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIL3out ----
+
+
+---- UPDATING Cmdlet : New-ACILogin ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACILogin ----
+
+
+---- UPDATING Cmdlet : New-ACITenant ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACITenant ----
+
+
+---- UPDATING Cmdlet : New-ACIVRF ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIVRF ----
+
+
+---- UPDATING Cmdlet : Remove-ACIBD ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Remove-ACIBD ----
+
+
+---- UPDATING Cmdlet : Update-ACIEPG ----
+
+	No updates done
+
+---- COMPLETED UPDATING Cmdlet : Update-ACIEPG ----
+
+
+---- UPDATING Cmdlet : Update-ACIEPGPortBinding ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Update-ACIEPGPortBinding ----
+
+
+[Update-MarkdownHelp] 06/13/2022 18:44:55 Command '' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\ACI-PoSH.md'.
+---- UPDATING Cmdlet : Get-ACIAAALocalUsers ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAALocalUsers ----
+
+
+---- UPDATING Cmdlet : Get-ACIAAASecDomain ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAASecDomain ----
+
+
+---- UPDATING Cmdlet : Get-ACIAAASecRole ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAASecRole ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfile ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfile ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIBDAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIBDAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIEPG ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEPG ----
+
+
+---- UPDATING Cmdlet : Get-ACIEPGALL ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEPGALL ----
+
+
+---- UPDATING Cmdlet : Get-ACIEpgBD ----
+
+	Parameter Set Added: ALL
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEpgBD ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricAEEP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricAEEP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicy ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicy ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicyAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicyAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPhysicalDomain ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPhysicalDomain ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortCDP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortCDP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLACP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLACP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLinkLevel ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLinkLevel ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLLDP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLLDP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricSwitchLeaf ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricSwitchLeaf ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricVLANPool ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricVLANPool ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricVLANPoolAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricVLANPoolAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIL3out ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIL3out ----
+
+
+---- UPDATING Cmdlet : Get-ACIL3outAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIL3outAll ----
+
+
+---- UPDATING Cmdlet : Get-ACISecurityContract ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACISecurityContract ----
+
+
+---- UPDATING Cmdlet : Get-ACISecurityContractAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACISecurityContractAll ----
+
+
+---- UPDATING Cmdlet : Get-ACITenant ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACITenant ----
+
+
+---- UPDATING Cmdlet : Get-ACIVRF ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIVRF ----
+
+
+---- UPDATING Cmdlet : New-ACIAAALocalUser ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIAAALocalUser ----
+
+
+---- UPDATING Cmdlet : New-ACIApiCall ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIApiCall ----
+
+
+---- UPDATING Cmdlet : New-ACIAppProfile ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIAppProfile ----
+
+
+---- UPDATING Cmdlet : New-ACIBD ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIBD ----
+
+
+---- UPDATING Cmdlet : New-ACIEPG ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIEPG ----
+
+
+---- UPDATING Cmdlet : New-ACIInterface ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIInterface ----
+
+
+---- UPDATING Cmdlet : New-ACIInterfaceVPC ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIInterfaceVPC ----
+
+
+---- UPDATING Cmdlet : New-ACIL3out ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIL3out ----
+
+
+---- UPDATING Cmdlet : New-ACILogin ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACILogin ----
+
+
+---- UPDATING Cmdlet : New-ACITenant ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACITenant ----
+
+
+---- UPDATING Cmdlet : New-ACIVRF ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIVRF ----
+
+
+---- UPDATING Cmdlet : Remove-ACIBD ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Remove-ACIBD ----
+
+
+---- UPDATING Cmdlet : Update-ACIEPG ----
+
+	No updates done
+
+---- COMPLETED UPDATING Cmdlet : Update-ACIEPG ----
+
+
+---- UPDATING Cmdlet : Update-ACIEPGPortBinding ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Update-ACIEPGPortBinding ----
+
+
+[Update-MarkdownHelpModule] 06/13/2022 18:45:22 Determined module name for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md' as 'ACI-PoSH'.
+[Update-MarkdownHelpModule] 06/13/2022 18:45:22 [Update-MarkdownHelpModule]6/13/2022 6:45:22 PM
+[Update-MarkdownHelpModule] 06/13/2022 18:45:22 Updating documents for module 'ACI-PoSH' in C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md
+[Update-MarkdownHelp] 06/13/2022 18:45:23 Command '' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\ACI-PoSH.md'.
+---- UPDATING Cmdlet : Get-ACIAAALocalUsers ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAALocalUsers ----
+
+
+---- UPDATING Cmdlet : Get-ACIAAASecDomain ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAASecDomain ----
+
+
+---- UPDATING Cmdlet : Get-ACIAAASecRole ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAASecRole ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfile ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfile ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIBDAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIBDAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIEPG ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEPG ----
+
+
+---- UPDATING Cmdlet : Get-ACIEPGALL ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEPGALL ----
+
+
+---- UPDATING Cmdlet : Get-ACIEpgBD ----
+
+	Parameter Set Added: ALL
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEpgBD ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricAEEP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricAEEP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicy ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicy ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicyAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicyAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPhysicalDomain ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPhysicalDomain ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortCDP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortCDP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLACP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLACP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLinkLevel ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLinkLevel ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLLDP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLLDP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricSwitchLeaf ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricSwitchLeaf ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricVLANPool ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricVLANPool ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricVLANPoolAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricVLANPoolAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIL3out ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIL3out ----
+
+
+---- UPDATING Cmdlet : Get-ACIL3outAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIL3outAll ----
+
+
+---- UPDATING Cmdlet : Get-ACISecurityContract ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACISecurityContract ----
+
+
+---- UPDATING Cmdlet : Get-ACISecurityContractAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACISecurityContractAll ----
+
+
+---- UPDATING Cmdlet : Get-ACITenant ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACITenant ----
+
+
+---- UPDATING Cmdlet : Get-ACIVRF ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIVRF ----
+
+
+---- UPDATING Cmdlet : New-ACIAAALocalUser ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIAAALocalUser ----
+
+
+---- UPDATING Cmdlet : New-ACIApiCall ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIApiCall ----
+
+
+---- UPDATING Cmdlet : New-ACIAppProfile ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIAppProfile ----
+
+
+---- UPDATING Cmdlet : New-ACIBD ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIBD ----
+
+
+---- UPDATING Cmdlet : New-ACIEPG ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIEPG ----
+
+
+---- UPDATING Cmdlet : New-ACIInterface ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIInterface ----
+
+
+---- UPDATING Cmdlet : New-ACIInterfaceVPC ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIInterfaceVPC ----
+
+
+---- UPDATING Cmdlet : New-ACIL3out ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIL3out ----
+
+
+---- UPDATING Cmdlet : New-ACILogin ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACILogin ----
+
+
+---- UPDATING Cmdlet : New-ACITenant ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACITenant ----
+
+
+---- UPDATING Cmdlet : New-ACIVRF ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIVRF ----
+
+
+---- UPDATING Cmdlet : Remove-ACIBD ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Remove-ACIBD ----
+
+
+---- UPDATING Cmdlet : Update-ACIEPG ----
+
+	No updates done
+
+---- COMPLETED UPDATING Cmdlet : Update-ACIEPG ----
+
+
+---- UPDATING Cmdlet : Update-ACIEPGPortBinding ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Update-ACIEPGPortBinding ----
+
+
+[Update-MarkdownHelp] 06/13/2022 18:45:28 Command '' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\ACI-PoSH.md'.
+---- UPDATING Cmdlet : Get-ACIAAALocalUsers ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAALocalUsers ----
+
+
+---- UPDATING Cmdlet : Get-ACIAAASecDomain ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAASecDomain ----
+
+
+---- UPDATING Cmdlet : Get-ACIAAASecRole ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAASecRole ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfile ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfile ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIBDAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIBDAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIEPG ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEPG ----
+
+
+---- UPDATING Cmdlet : Get-ACIEPGALL ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEPGALL ----
+
+
+---- UPDATING Cmdlet : Get-ACIEpgBD ----
+
+	Parameter Set Added: ALL
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEpgBD ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricAEEP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricAEEP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicy ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicy ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicyAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicyAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPhysicalDomain ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPhysicalDomain ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortCDP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortCDP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLACP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLACP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLinkLevel ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLinkLevel ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLLDP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLLDP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricSwitchLeaf ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricSwitchLeaf ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricVLANPool ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricVLANPool ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricVLANPoolAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricVLANPoolAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIL3out ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIL3out ----
+
+
+---- UPDATING Cmdlet : Get-ACIL3outAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIL3outAll ----
+
+
+---- UPDATING Cmdlet : Get-ACISecurityContract ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACISecurityContract ----
+
+
+---- UPDATING Cmdlet : Get-ACISecurityContractAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACISecurityContractAll ----
+
+
+---- UPDATING Cmdlet : Get-ACITenant ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACITenant ----
+
+
+---- UPDATING Cmdlet : Get-ACIVRF ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIVRF ----
+
+
+---- UPDATING Cmdlet : New-ACIAAALocalUser ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIAAALocalUser ----
+
+
+---- UPDATING Cmdlet : New-ACIApiCall ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIApiCall ----
+
+
+---- UPDATING Cmdlet : New-ACIAppProfile ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIAppProfile ----
+
+
+---- UPDATING Cmdlet : New-ACIBD ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIBD ----
+
+
+---- UPDATING Cmdlet : New-ACIEPG ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIEPG ----
+
+
+---- UPDATING Cmdlet : New-ACIInterface ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIInterface ----
+
+
+---- UPDATING Cmdlet : New-ACIInterfaceVPC ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIInterfaceVPC ----
+
+
+---- UPDATING Cmdlet : New-ACIL3out ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIL3out ----
+
+
+---- UPDATING Cmdlet : New-ACILogin ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACILogin ----
+
+
+---- UPDATING Cmdlet : New-ACITenant ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACITenant ----
+
+
+---- UPDATING Cmdlet : New-ACIVRF ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIVRF ----
+
+
+---- UPDATING Cmdlet : Remove-ACIBD ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Remove-ACIBD ----
+
+
+---- UPDATING Cmdlet : Update-ACIEPG ----
+
+	No updates done
+
+---- COMPLETED UPDATING Cmdlet : Update-ACIEPG ----
+
+
+---- UPDATING Cmdlet : Update-ACIEPGPortBinding ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Update-ACIEPGPortBinding ----
+
+
+[Update-MarkdownHelpModule] 06/21/2022 11:31:09 Determined module name for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md' as 'ACI-PoSH'.
+[Update-MarkdownHelpModule] 06/21/2022 11:31:09 [Update-MarkdownHelpModule]6/21/2022 11:31:09 AM
+[Update-MarkdownHelpModule] 06/21/2022 11:31:09 Updating documents for module 'ACI-PoSH' in C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md
+[Update-MarkdownHelp] 06/21/2022 11:31:10 Command '' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\ACI-PoSH.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:10 Command 'Get-ACIAAALocalUsers' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIAAALocalUsers.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:10 Command 'Get-ACIAAASecDomain' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIAAASecDomain.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:10 Command 'Get-ACIAAASecRole' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIAAASecRole.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:10 Command 'Get-ACIAppProfile' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIAppProfile.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:10 Command 'Get-ACIAppProfileAll' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIAppProfileAll.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:11 Command 'Get-ACIAppProfileAll' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIBD.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:11 Command 'Get-ACIBDAll' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIBDAll.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:11 Command 'Get-ACIEPG' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIEPG.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:11 Command 'Get-ACIEPGALL' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIEPGALL.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:11 Command 'Get-ACIEpgBD' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIEpgBD.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:11 Command 'Get-ACIFabricAEEP' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIFabricAEEP.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:12 Command 'Get-ACIFabricLeafAccessPolicy' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIFabricLeafAccessPolicy.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:12 Command 'Get-ACIFabricLeafAccessPolicyAll' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIFabricLeafAccessPolicyAll.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:12 Command 'Get-ACIFabricPhysicalDomain' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIFabricPhysicalDomain.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:12 Command 'Get-ACIFabricPortCDP' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIFabricPortCDP.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:12 Command 'Get-ACIFabricPortLACP' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIFabricPortLACP.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:12 Command 'Get-ACIFabricPortLinkLevel' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIFabricPortLinkLevel.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:13 Command 'Get-ACIFabricPortLLDP' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIFabricPortLLDP.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:13 Command 'Get-ACIFabricSwitchLeaf' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIFabricSwitchLeaf.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:13 Command 'Get-ACIFabricVLANPool' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIFabricVLANPool.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:13 Command 'Get-ACIFabricVLANPoolAll' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIFabricVLANPoolAll.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:13 Command 'Get-ACIL3out' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIL3out.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:13 Command 'Get-ACIL3outAll' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIL3outAll.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:14 Command 'Get-ACISecurityContract' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACISecurityContract.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:14 Command 'Get-ACISecurityContractAll' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACISecurityContractAll.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:14 Command 'Get-ACITenant' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACITenant.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:14 Command 'Get-ACIVRF' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Get-ACIVRF.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:14 Command 'New-ACIAAALocalUser' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\New-ACIAAALocalUser.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:14 Command 'New-ACIApiCall' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\New-ACIApiCall.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:15 Command 'New-ACIAppProfile' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\New-ACIAppProfile.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:15 Command 'New-ACIBD' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\New-ACIBD.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:15 Command 'New-ACIEPG' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\New-ACIEPG.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:15 Command 'New-ACIEPGVMMDomain' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\New-ACIEPGVMMDomain.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:15 Command 'New-ACIInterface' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\New-ACIInterface.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:15 Command 'New-ACIInterfaceVPC' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\New-ACIInterfaceVPC.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:16 Command 'New-ACIL3out' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\New-ACIL3out.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:16 Command 'New-ACILogin' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\New-ACILogin.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:16 Command 'New-ACITenant' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\New-ACITenant.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:16 Command 'New-ACIVRF' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\New-ACIVRF.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:16 Command 'Remove-ACIBD' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Remove-ACIBD.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:16 Command 'Remove-ACIEPGVMMDomain' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Remove-ACIEPGVMMDomain.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:17 Command 'Update-ACIEPG' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Update-ACIEPG.md'.
+[Update-MarkdownHelp] 06/21/2022 11:31:17 Command 'Update-ACIEPGPortBinding' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\Update-ACIEPGPortBinding.md'.
+[Update-MarkdownHelpModule] 06/21/2022 11:31:53 Determined module name for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md' as 'ACI-PoSH'.
+[Update-MarkdownHelpModule] 06/21/2022 11:31:53 [Update-MarkdownHelpModule]6/21/2022 11:31:53 AM
+[Update-MarkdownHelpModule] 06/21/2022 11:31:53 Updating documents for module 'ACI-PoSH' in C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md
+[Update-MarkdownHelp] 06/21/2022 11:31:54 Command '' not found in the session, skipping upgrade for 'C:\Users\jaron.t.swofford\Documents\WindowsPowerShell\Modules\ACI-PoSH\md\ACI-PoSH.md'.
+---- UPDATING Cmdlet : Get-ACIAAALocalUsers ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAALocalUsers ----
+
+
+---- UPDATING Cmdlet : Get-ACIAAASecDomain ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAASecDomain ----
+
+
+---- UPDATING Cmdlet : Get-ACIAAASecRole ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAAASecRole ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfile ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfile ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIAppProfileAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIBDAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIBDAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIEPG ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+	Parameter Updated: AP
+		Required updated from False to True
+
+	Parameter Updated: AP
+		Accepts Pipeline Input updated from True (ByPropertyName) to False
+
+	Parameter Updated: EPG
+		Required updated from False to True
+
+	Parameter Updated: EPG
+		Accepts Pipeline Input updated from True (ByPropertyName) to False
+
+	Parameter Updated: Tenant
+		Required updated from False to True
+
+	Parameter Updated: Tenant
+		Accepts Pipeline Input updated from True (ByPropertyName) to False
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEPG ----
+
+
+---- UPDATING Cmdlet : Get-ACIEPGALL ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEPGALL ----
+
+
+---- UPDATING Cmdlet : Get-ACIEpgBD ----
+
+	Parameter Set Added: ALL
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIEpgBD ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricAEEP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricAEEP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicy ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicy ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicyAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricLeafAccessPolicyAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPhysicalDomain ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPhysicalDomain ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortCDP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortCDP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLACP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLACP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLinkLevel ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLinkLevel ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricPortLLDP ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricPortLLDP ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricSwitchLeaf ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricSwitchLeaf ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricVLANPool ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricVLANPool ----
+
+
+---- UPDATING Cmdlet : Get-ACIFabricVLANPoolAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIFabricVLANPoolAll ----
+
+
+---- UPDATING Cmdlet : Get-ACIL3out ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIL3out ----
+
+
+---- UPDATING Cmdlet : Get-ACIL3outAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIL3outAll ----
+
+
+---- UPDATING Cmdlet : Get-ACISecurityContract ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACISecurityContract ----
+
+
+---- UPDATING Cmdlet : Get-ACISecurityContractAll ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACISecurityContractAll ----
+
+
+---- UPDATING Cmdlet : Get-ACITenant ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACITenant ----
+
+
+---- UPDATING Cmdlet : Get-ACIVRF ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Get-ACIVRF ----
+
+
+---- UPDATING Cmdlet : New-ACIAAALocalUser ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIAAALocalUser ----
+
+
+---- UPDATING Cmdlet : New-ACIApiCall ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIApiCall ----
+
+
+---- UPDATING Cmdlet : New-ACIAppProfile ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIAppProfile ----
+
+
+---- UPDATING Cmdlet : New-ACIBD ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+	Parameter Updated: L3out
+		Required updated from True to False
+
+	Parameter Updated: SVI
+		Required updated from True to False
+
+	Parameter Updated: SVIscope
+		Required updated from True to False
+
+---- COMPLETED UPDATING Cmdlet : New-ACIBD ----
+
+
+---- UPDATING Cmdlet : New-ACIEPG ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIEPG ----
+
+
+---- UPDATING Cmdlet : New-ACIEPGVMMDomain ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+	Parameter Updated: MicroSegmentation
+		Required updated from True to False
+
+---- COMPLETED UPDATING Cmdlet : New-ACIEPGVMMDomain ----
+
+
+---- UPDATING Cmdlet : New-ACIInterface ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIInterface ----
+
+
+---- UPDATING Cmdlet : New-ACIInterfaceVPC ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIInterfaceVPC ----
+
+
+---- UPDATING Cmdlet : New-ACIL3out ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIL3out ----
+
+
+---- UPDATING Cmdlet : New-ACILogin ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACILogin ----
+
+
+---- UPDATING Cmdlet : New-ACITenant ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACITenant ----
+
+
+---- UPDATING Cmdlet : New-ACIVRF ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : New-ACIVRF ----
+
+
+---- UPDATING Cmdlet : Remove-ACIBD ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Remove-ACIBD ----
+
+
+---- UPDATING Cmdlet : Remove-ACIEPGVMMDomain ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Remove-ACIEPGVMMDomain ----
+
+
+---- UPDATING Cmdlet : Update-ACIEPG ----
+
+	No updates done
+
+---- COMPLETED UPDATING Cmdlet : Update-ACIEPG ----
+
+
+---- UPDATING Cmdlet : Update-ACIEPGPortBinding ----
+
+	Parameter Set Added: __AllParameterSets
+
+	Parameter Set Deleted: 
+
+	Parameter Set Name Updated: __AllParameterSets
+		Old Set: 
+		New Set: __AllParameterSets
+
+---- COMPLETED UPDATING Cmdlet : Update-ACIEPGPortBinding ----
+
+
