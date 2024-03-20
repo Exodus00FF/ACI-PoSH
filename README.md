@@ -18,18 +18,15 @@ Import the modules:
 Your other alternative is to add these into a PowerShell script you run to start:
 <pre>
 #Import Functions
-Write-Host "Importing ACI Functions" -ForegroundColor Green
- Import-Module .\aci-functions.psml -WarningAction SilentlyContinue
-
-Write-Host "Importing ACI Services" -ForegroundColor Green
- Import-Module .\aci-services.psml -WarningAction SilentlyContinue
+import-module
 
 #Login (Optional)
- New-Aci-Login -Apic MyAPIC -Username MyUsername -Password MyPassword
+ $Password = Read-Host -AsSecureString -Prompt Password
+ New-Aci-Login -Apic MyAPIC -Username MyUsername -Password  $Password
 </pre>
 #### <i class="icon-folder-open"></i> Authenticate to ACI
 First step is to authenticate to the APIC.
-<pre>> New-Aci-Login -Apic MyAPIC -Username MyUsername -Password MyPassword</pre>
+<pre>> New-AciLogin -Apic MyAPIC -Username MyUsername -Password $Password</pre>
 You should see the message <b>Authenticated!</b> 
 
 If it fails, run the same command again. Occasionally the APIC API sometimes fails for no apparent reason.  Need to get to the bottom of this.
@@ -48,7 +45,7 @@ Get-Command | where-Object {$_.name -like '*-ACI-*'}
 </pre>
 All modules now have updated help text.   Hopefully that will be useful!
 <pre>
-Get-ACI-Tenant
+Get-ACITenant
 
 name        descr dn                
 ----        ----- --                
@@ -63,7 +60,7 @@ secretAudit       uni/tn-secretAudit
 </pre>	
 As you see, we get useful paremeters shown along with the actual object (dn). The dn is not used by PoshACI but shown for completeness.
 You can then run additional commands such as
-<pre>get-ACI-AppProfile-All -tenant ACI-TenX</pre>
+<pre>get-ACIAppProfileAll -tenant ACI-TenX</pre>
 
 **Tip:** - Remember ACI is case sensitive, including all configuration.
 The above command will show all of the Application Profiles for Tenant TenX.
@@ -73,7 +70,7 @@ The **-All** identifier is used for some commandlets, rather than being the defa
 Now I have fixed the output/pipeline support remember how powerful PowerShell is so you can chain commands together.  For example: 
 
 <pre>
-Get-ACI-tenant | where-Object {$_.name -like '*Hos*'} | Get-ACI-vrf | Where-Object {$_.name -notlike '*vrf*'} | Format-Table
+Get-ACItenant | where-Object {$_.name -like '*Hos*'} | Get-ACIvrf | Where-Object {$_.name -notlike '*vrf*'} | Format-Table
 </pre>
 
 This searches for Tenants that have the string 'Hos' within, then gets their VRF's which don't have the string 'vrf' within.  Then outputs as a table !
