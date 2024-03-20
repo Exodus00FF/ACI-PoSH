@@ -39,7 +39,7 @@ Currently defined commands are:
 <pre>
 # I removed the list of commands here, as it was getting too long.   To find all of them run:
 
-Get-Command | where-Object {$_.name -like '*-ACI-*'}
+Get-Command -Noun ACI*
 
 </pre>
 All modules now have updated help text.   Hopefully that will be useful!
