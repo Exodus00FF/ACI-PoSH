@@ -2,7 +2,7 @@
 
 This is a set of PowerShell modules for Cisco ACI. These drive the native ACI RESTful API exposed by systems APIC's and expose these functions in PowerShell Commandlets.
 > **NOTE:**
-> You obviously need a PowerShell envionment that works.  This has been tested with Windows 10/Server 2012 R2 on Windows and PowerShell Core on Linux along with Cisco ACI Versions 3.x
+> You obviously need a PowerShell envionment that works.  This has been tested with Windows 10|11/Server 2012 R2|2016|2019 on Windows along with Cisco ACI Versions 4-5.x
 > - Access to your Cisco ACI environment via HTTPS <b>and</b> credentials that have relevant access
 > - You should be aware of commands you are running as well as the implications of doing so.
 > - At present, input is **not** filtered. If you make a typo, the API will execute it.
