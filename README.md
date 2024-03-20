@@ -12,8 +12,7 @@ Copy the modules to either your PowerShell module directories (either for the sy
 or per user) <b>or</b>
 Import the modules:
 <pre>
->	import-module .\aci-functions.psml
->	import-module .\aci-services.psml
+Import-Module ACI-PoSH
 </pre>
 Your other alternative is to add these into a PowerShell script you run to start:
 <pre>
