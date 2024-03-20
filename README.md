@@ -21,7 +21,7 @@ import-module
 
 #Login (Optional)
  $Password = Read-Host -AsSecureString -Prompt Password
- New-Aci-Login -Apic MyAPIC -Username MyUsername -Password  $Password
+ New-AciLogin -Apic MyAPIC -Username MyUsername -Password  $Password
 </pre>
 #### <i class="icon-folder-open"></i> Authenticate to ACI
 First step is to authenticate to the APIC.
