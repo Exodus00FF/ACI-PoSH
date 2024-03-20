@@ -32,7 +32,7 @@ If it fails, run the same command again. Occasionally the APIC API sometimes fai
 *	If you fail to supply a username then the currently logged in userlD (%username%) from Windows is used.
 *	If you fail to supply a password, then you are prompted for it.
 *	If you fail to supply a APIC name, then <b>APIC</b> is used as the hostname
-You can also use the -StoreLocation argument to specify a credential file rather than being prompted for passwords.
+  
 >	**Tip:** ACI has very short session timers (300 seconds) and thus you will find you need to authenticate frequently.
 #### <i class="icon-pencil"></i> Commands
 Currently defined commands are:
