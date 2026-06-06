@@ -6,6 +6,36 @@ switch($Null){
 
 }
 
+Function New-ACIJSONSection {
+	[cmdletbinding()]
+	param(
+		[string]
+		[parameter(Mandatory)]
+		$SectionName,
+
+		[Hashtable]
+		[Parameter(Mandatory)]
+		$AttributesSection
+
+
+	)
+
+	$ReturnObject = @{
+		"$SectionName" = [Ordered]@{
+			attributes = [Ordered]@{
+			}
+			children=@()
+		}
+
+	}
+
+	foreach($Attrb in $($AttributesSection.GetEnumerator()) ){
+		$ReturnObject.$SectionName.attributes.Add("$($Attrb.Key)", $Attrb.Value)
+	}
+    return $ReturnObject
+
+}
+
 
 Function Start-ACICommand {
 	[cmdletbinding()]
@@ -36,11 +66,11 @@ Function Start-ACICommand {
 		$Method = $Method.ToUpper()
 
 		
-		Write-Verbose "Executing Start-ACICommand"
-		Write-Verbose "Method: $Method"
-		Write-Verbose "Encoding $Encoding"
-		Write-Verbose "URL:  $URL"
-		Write-Verbose "PostData: `r`n##########################`r`n$PostData`r`n##########################`r`n"
+		Write-Verbose "[$($MyInvocation.MyCommand)]: Executing Start-ACICommand"
+		Write-Verbose "[$($MyInvocation.MyCommand)]: Method: $Method"
+		Write-Verbose "[$($MyInvocation.MyCommand)]: Encoding $Encoding"
+		Write-Verbose "[$($MyInvocation.MyCommand)]: URL:  $URL"
+		Write-Verbose "[$($MyInvocation.MyCommand)]: PostData: `r`n##########################`r`n$PostData`r`n##########################`r`n"
 	}
 	Process {
 		Try {
@@ -83,7 +113,6 @@ Function New-ACIApiCall  {
 		[string]
 		[Parameter(Mandatory = $false, Position = 3)] 
 		$Encoding, 
-
 		
 		[Parameter(Mandatory = $false, Position = 4)] 
 		$Headers, 
@@ -96,16 +125,16 @@ Function New-ACIApiCall  {
 	$Method = $Method.ToUpper()
 
 	#IF token is greater than Lastupdate Lifetime and MaxLifetime then Get a New Token
-	if( $(split-path -leaf $url) -ine "aaaLogin.xml" -and (			
-			[timespan]($(Get-Date) - $Global:TokenLastUpdate).Seconds -gt ($Global:TokenRefreshTimeoutSeconds - 10) -or  
-			[timespan]($(Get-Date) - $Global:TokenStartTime).Seconds -gt ($Global:TokenmaximumLifetimeSeconds - 10) 
-			)
-		) 
-	{
-		Write-Verbose "Token has Expired reauthenticating"
-		New-ACILogin -Password $Global:PW -Apic $Global:ACIPoSHAPIC
+	if($(split-path -leaf $url) -inotin @("aaaLogin.xml","aaaRefresh.json")){
+		if( $Global:ACITokenTimer.Elapsed.TotalSeconds -gt ($Global:ACITokenmaximumLifetimeSeconds - 10)){
+			Write-Verbose "Token has hit Max Lifetime, ReAuthenticating"
+			New-ACILogin -Password $Global:PW -Apic $Global:ACIPoSHAPIC
+		}elseif( $Global:ACITokenRefreshTimer.Elapsed.TotalSeconds -gt ($Global:ACITokenRefreshTimeoutSeconds - 10)){
+			Write-Verbose "Token at Timout Threshold, Refreshing Token"
+			Update-ACIToken
+		}
 	}
-	
+
 
 	$return_value = New-Object PsObject -Property @{httpCode =""; httpResponse =""} 
 		Try
@@ -160,7 +189,7 @@ Function New-ACIApiCall  {
 			$request.ContentLength = $bytes.Length
 		
 			try{
-				[System.IO.Stream] $outputStream =
+				[System.IO.Stream] $outputStream = 
 				[System.IO.Stream]$request.GetRequestStream()
 				$outputStream.Write($bytes,0,$bytes.Length) 
 				$outputStream.Close()
@@ -195,7 +224,6 @@ Function New-ACIApiCall  {
 			## Return the response body to the caller
 			$return_value.httpResponse = $txt
 			$return_value.httpCode = [int]$response.StatusCode
-			$Global:TokenLastUpdate = Get-Date
 			return $return_value
 		}
 
@@ -218,6 +246,22 @@ Function New-ACIApiCall  {
 		return $return_value
 		}
 	}
+
+
+
+Function Update-ACIToken {
+	[cmdletbinding()]
+	param(
+	)
+
+	Write-Verbose "[Update-ACIToken] Starting Token Refresh"
+	$PollURL = "https://{0}/api/aaaRefresh.json" -f $global:ACIPoSHAPIC
+	$Refresh =  New-ACIApiCall -Method GET -Encoding "application/json" -URL $PollURL 
+	if($Refresh.httpCode -ge 200 -and $Refresh.httpCode -lt 300){
+		Write-Verbose "ACI Token Timer Reset"
+		$Global:ACITokenRefreshTimer.Restart()
+	}
+}
 	
 # .ExternalHelp ACI-PoSH-help.xml
 Function New-ACILogin
@@ -228,7 +272,7 @@ Function New-ACILogin
 		[string]$Apic, 
 		[String]$Username, 
 		[SecureString]$Password,
-		[String]$StoreLocation
+        [switch]$DoNotStoreCredentials
 	 )
 
 	##Check if an APIC was specified.
@@ -247,69 +291,133 @@ Function New-ACILogin
 	## Save the APIC name as a global var for the session
 	$global:ACIPoSHAPIC = $apic
 	
-	if (!($UserName)){
+    
+	if (!($UserName -and !$GLOBAL:ACISecCred)){
 		## Assume no username specified so extract from Windows which should be the same credential
 		$UserName = $env:USERNAME
-	}
-	if (!($StoreLocation)){
-		## No credentail store location specified so check for password
-		if (!($Password)){
-			## No password specified thus prompt
-			$Password = Read-Host -Prompt "No password or credential file was specified as an argument. Please enter your password " -AsSecureString
-			## Clear screen just to remove from console view
-			Clear-Host
-		}
 	}else{
-		## Credential Stored file specified, so extract the password. This is not a straightforward operation !
-		## Import the encrpted password and convert to a Secure String
-		try{
-			$Password = (ConvertTo-SecureString (Get-Content $StoreLocation))
-		}catch{
-			Write-Error -ErrorAction Stop -Category OpenError -Message  "Password file access failed. It may be missing. Please try again"
-	
-		}
-	
- 
+        $UserName = $GLOBAL:ACISecCred.Username
+    }
+
+	## No credentail store location specified so check for password
+	if (!($Password) -and  !$GLOBAL:ACISecCred){
+		## No password specified thus prompt
+		$Password = Read-Host -Prompt "No password or credential file was specified as an argument. Please enter your password " -AsSecureString
+		## Clear screen just to remove from console view
+		Clear-Host
 	}
 
-	try{
-		$SecCred = New-Object system.management.automation.pscredential -ArgumentList $UserName,$Password
-	}catch{
-		Write-Error -ErrorAction Stop -Category AuthenticationError -Message  "Extraction of credential failed. Its contents are probably not valid. Please try again"
-	}
+
+    if($Null -eq $GLOBAL:ACISecCred){
+	    try{
+		    $GLOBAL:ACISecCred = New-Object system.management.automation.pscredential -ArgumentList $UserName,$Password
+	    }catch{
+		    Write-Error -ErrorAction Stop -Category AuthenticationError -Message  "Extraction of credential failed. Its contents are probably not valid. Please try again"
+	    }
+    }
 
 	try{
-		$null = $SecCred.GetNetworkCredential().Password
+		$null = $GLOBAL:ACISecCred.GetNetworkCredential().Password
 	}catch{
 		Write-Error -ErrorAction Stop -Category InvalidData -Message   "Extraction of password failed. Please try again" 
 	}
 
 	## Set the logging in flag
-	$global:ACIPoSHLoggingIn = $True;  $global:ACIPoSHLoggingIn | out-null
+	$global:ACIPoSHLoggingIn = $True;  
+
 	## This is the URL we're going to be logging in to
 	$loginurl = "https://" + $apic + "/api/aaaLogin.xml"
+    Write-Verbose "Login URL: $LoginURL"
+
+
 	## Format the XML body for a login
-	$creds = '<aaaUser name="' + $UserName + '" pwd="' + $SecCred.GetNetworkCredential().Password + '"/>'
+	$creds = '<aaaUser name="' + $UserName + '" pwd="' + $GLOBAL:ACISecCred.GetNetworkCredential().Password + '"/>'
+    Write-Verbose "Credential Obj: '<aaaUser name='$UserName' pwd='***************'/>"
+
 	## Execute the API Call
 	$result = New-ACIApiCall -Method "POST" -Encoding "application/xml" -URL $loginUrl -Headers "" -PostData $creds
-	remove-variable -Name creds
+	remove-variable -Name creds -ErrorAction SilentlyContinue
+	Write-Verbose "API Call Result:  '$Result'"
+
 	if($result.httpResponse.Contains("Unauthorized")){
+        Remove-Variable -Scope Global -Name ACISecCred -ErrorAction SilentlyContinue
 		Write-Error -ErrorAction Stop -Category AuthenticationError -Message  "Authentication to APIC failed! Please check your credentials."
 	}else{
 		[xml]$ResponseXML = $result.httpResponse
-		$Global:TokenStartTime              = Get-date
-		$Global:TokenLastUpdate             = Get-Date
-		$Global:TokenRefreshTimeoutSeconds  = $ResponseXML.imdata.aaaLogin.refreshTimeoutSeconds
-		$Global:TokenmaximumLifetimeSeconds = $ResponseXML.imdata.aaaLogin.maximumLifetimeSeconds
-		$Global:TokenrestTimeoutSeconds = $ResponseXML.imdata.aaaLogin.restTimeoutSeconds
+		$Global:ACITokenTimer                  = [diagnostics.stopwatch]::startnew()
+		$Global:ACITokenRefreshTimer                  = [diagnostics.stopwatch]::startnew()
+		Write-Verbose "Updated ACI Token Timer"
+		$Global:ACITokenRefreshTimeoutSeconds  = $ResponseXML.imdata.aaaLogin.refreshTimeoutSeconds
+		Write-Verbose "Token Refresh Timeout Seconds : $($Global:ACITokenRefreshTimeoutSeconds)"
+		$Global:ACITokenmaximumLifetimeSeconds = $ResponseXML.imdata.aaaLogin.maximumLifetimeSeconds
+		Write-Verbose "Token Max Lifetime Secs : $($Global:ACITokenmaximumLifetimeSeconds)"
+		$Global:ACITokenrestTimeoutSeconds = $ResponseXML.imdata.aaaLogin.restTimeoutSeconds
+		Write-Verbose "Token Rest Timeout Secs : $($Global:ACITokenrestTimeoutSeconds)"
 
 		switch($null){
-			$Global:TokenStartTime { Write-Error -ErrorAction Stop -Message "Global:TokenStartTime was unable to be set"}
-			$Global:TokenLastUpdate { Write-Error -ErrorAction Stop -Message "Global:TokenLastUpdate was unable to be set"}
-			$Global:TokenRefreshTimeoutSeconds { Write-Error -ErrorAction Stop -Message "Global:TokenRefreshTimeoutSeconds was unable to be set"}
-			$Global:TokenmaximumLifetimeSeconds { Write-Error -ErrorAction Stop -Message "Global:TokenmaximumLifetimeSeconds was unable to be set"}
-			$Global:TokenrestTimeoutSeconds { Write-Error -ErrorAction Stop -Message "Global:TokenrestTimeoutSeconds was unable to be set" }
+			<#
+			$Global:ACITokenStartTime { Write-Error -ErrorAction Stop -Message "Global:TokenStartTime was unable to be set"}
+			$Global:ACITokenLastUpdate { Write-Error -ErrorAction Stop -Message "Global:TokenLastUpdate was unable to be set"}#>
+			$Global:ACITokenRefreshTimeoutSeconds { Write-Error -ErrorAction Stop -Message "Global:TokenRefreshTimeoutSeconds was unable to be set"}
+			$Global:ACITokenmaximumLifetimeSeconds { Write-Error -ErrorAction Stop -Message "Global:TokenmaximumLifetimeSeconds was unable to be set"}
+			$Global:ACITokenrestTimeoutSeconds { Write-Error -ErrorAction Stop -Message "Global:TokenrestTimeoutSeconds was unable to be set" }
 		}
 		Write-Verbose "Authenticated!" 
 	}
+
+    if($DoNotStoreCredentials){
+        Remove-Variable -Scope GLOBAL -Name ACISecCred -ErrorAction SilentlyContinue
+    }
+
+}
+
+
+function Confirm-ValidSubnet{
+	[cmdletbinding()]
+	param(
+		[string]
+		[Parameter(Mandatory = $True)]      
+		$Subnet
+	)
+	
+	$ReturnObject = [PSCustomObject]@{
+		Success=$False
+		IP=""
+		Netmask=""
+		Subnet=""
+	}
+
+	Write-Verbose "[Confirm-ValidSubnet] Provided Value = '$Subnet'"
+
+	$SubnetRegex = [regex]::match($Subnet,"^(?<oct1>\d+)[.](?<oct2>\d+)[.](?<oct3>\d+)[.](?<oct4>\d+)[\\/]?(?<netmask>\d+)?$")   
+    
+	if($SubnetRegex.Success){
+        if( $SubnetRegex.Groups['oct1'].value -notin 1..255 -or
+            $SubnetRegex.Groups['oct2'].value -notin 1..255 -or
+            $SubnetRegex.Groups['oct3'].value -notin 1..255 -or
+            $SubnetRegex.Groups['oct4'].value -notin 1..255
+        ){
+
+            Write-Error -ErrorAction Stop -Message "$($SubnetRegex.Groups['oct1'].value).$($SubnetRegex.Groups['oct2'].value).$($SubnetRegex.Groups['oct3'].value).$($SubnetRegex.Groups['oct4'].value) Address is not Valid,  must be between 1.1.1.1 - 255.255.255.255"
+        }elseif($SubnetRegex.Groups['netmask'].value -notin 1..32 ){
+            Write-Error -ErrorAction Stop -Message "Subnet Bits are not Valid, must between 1-32"
+        }else{
+			$ReturnObject.Subnet = "{0}.{1}.{2}.{3}/{4}" -f $SubnetRegex.Groups['oct1'].value, $SubnetRegex.Groups['oct2'].value, $SubnetRegex.Groups['oct3'].value, $SubnetRegex.Groups['oct4'].value, $SubnetRegex.Groups['netmask'].value
+			$ReturnObject.IP = "{0}.{1}.{2}.{3}" -f $SubnetRegex.Groups['oct1'].value, $SubnetRegex.Groups['oct2'].value, $SubnetRegex.Groups['oct3'].value, $SubnetRegex.Groups['oct4'].value
+			$ReturnObject.Netmask = $SubnetRegex.Groups['netmask'].value
+			$ReturnObject.Success = $True
+
+
+		}
+	}else{
+		$ReturnObject.Success = $False
+	}
+
+	Write-Verbose "[Confirm-ValidSubnet] Returned Subnet  = '$($ReturnObject.Subnet)'"
+	Write-Verbose "[Confirm-ValidSubnet] Returned IP      = '$($ReturnObject.IP)'"
+	Write-Verbose "[Confirm-ValidSubnet] Returned Netmask = '$($ReturnObject.Netmask)'"
+	Write-Verbose "[Confirm-ValidSubnet] Returned Success = '$($ReturnObject.Success)'"
+
+	return $ReturnObject
+
 }
